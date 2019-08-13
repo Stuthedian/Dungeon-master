@@ -1,0 +1,21 @@
+{
+   "background": {"scripts": [ "scripts/background.js" ]},
+   "browser_action": {
+      "default_icon": {
+         "16": "images/smile_32.png",
+         "32": "images/smile_48.png"
+      },
+      "default_title": "Dungeon master"
+   },
+   "description": "TAKE IT BOY",
+   "icons": {
+      "128": "images/smile_128.png",
+      "16": "images/smile_32.png",
+      "48": "images/smile_96.png"
+   },
+   "incognito": "not_allowed",
+   "manifest_version": 2,
+   "name": "Dungeon master",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*.vk.com/*", "tabs"],
+   "version" : "1.0"
+}
